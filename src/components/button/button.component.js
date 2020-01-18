@@ -5,9 +5,9 @@ class Button extends Component {
   render() {
     
       return(
-      	<div class="button">
-      		ABC
-      	</div>
+      	<button onClick={this.props.onInputChange}>
+      		{this.props.sign}
+      	</button>
   		);
   }
 }

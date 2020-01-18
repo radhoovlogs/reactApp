@@ -3,13 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import Menu from './components/menu/menu.component';
+import Counter from './components/counter/counter.component';
 
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Counter />
     </div>
   );
 }
